@@ -1,0 +1,12 @@
+image: condaforge/mambaforge:latest
+tasks:
+  - name: Script Task
+    init: |
+        conda create --yes --name snowparkPCE -c https://repo.anaconda.com/pkgs/snowflake python=3.8
+        conda activate snowparkPCE
+        conda install --yes -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas scikit-learn
+        conda install --yes streamlit
+    command: conda activate snowparkPCE
+vscode:
+  extensions:
+    - ms-python.python
