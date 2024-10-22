@@ -1,4 +1,4 @@
-#Free Time Analysis Web Application\
+# Free Time Analysis Web Application\
 This project visualizes and analyzes how individuals allocate their free time across various activities, using data from Snowflake. The dataset reveals how different countries spend their leisure time, which can be further broken down by gender and other demographics.
 
 *Features*
